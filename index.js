@@ -20,7 +20,7 @@ if(a != 0){
             let x1 = (-b - math.sqrt(delta)) / (2*a);
             let x2 = (-b + math.sqrt(delta)) / (2*a);
             console.log("Nghiệm thứ nhất của phương trình là X1 =" +x1 );
-            // console.log("Nghiệm thứ 2 của phương trình là X2 =" +x2);
+            console.log("Nghiệm thứ 2 của phương trình là X2 =" +x2);
         }
         else if (delta == 0){
             let x = (-b) / (2*a);
